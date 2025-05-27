@@ -7,6 +7,6 @@ using namespace std;
 int main()
 {
     
-
+    //עוסוף‏ ד³ע
 }
 
