@@ -1,0 +1,1991 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Spirit_Of_Carpats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Location.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\event_handling\EventHandling.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\ftp\Ftp.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\island\Island.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\joystick\Joystick.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\keyboard\Keyboard.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\opengl\OpenGL.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\raw_input\RawInput.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\shader\Shader.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\sockets\Sockets.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\sockets\TCP.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\sockets\UDP.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\sound\Sound.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\sound_capture\SoundCapture.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\sound_effects\SoundEffects.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\stencil\Stencil.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\tennis\Tennis.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\voip\Client.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\voip\Server.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\voip\VoIP.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\vulkan\Vulkan.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\win32\Win32.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML\examples\window\Window.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Location.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\AudioResource.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\Export.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\InputSoundFile.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\Listener.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\Music.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\OutputSoundFile.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\PlaybackDevice.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\Sound.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\SoundBuffer.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\SoundBufferRecorder.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\SoundChannel.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\SoundFileFactory.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\SoundFileReader.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\SoundFileWriter.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\SoundRecorder.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\SoundSource.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio\SoundStream.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Audio.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Config.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\GpuPreference.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\BlendMode.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\CircleShape.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Color.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\ConvexShape.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\CoordinateType.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Drawable.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Export.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Font.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Glsl.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Glyph.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Image.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\PrimitiveType.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Rect.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\RectangleShape.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\RenderStates.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\RenderTarget.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\RenderTexture.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\RenderWindow.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Shader.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Shape.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Sprite.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\StencilMode.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Text.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Texture.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Transform.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Transformable.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\Vertex.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\VertexArray.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\VertexBuffer.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics\View.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Graphics.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Main.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Network\Export.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Network\Ftp.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Network\Http.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Network\IpAddress.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Network\Packet.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Network\Socket.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Network\SocketHandle.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Network\SocketSelector.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Network\TcpListener.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Network\TcpSocket.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Network\UdpSocket.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Network.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\OpenGL.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\Angle.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\Clock.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\Err.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\Exception.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\Export.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\FileInputStream.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\InputStream.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\MemoryInputStream.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\NativeActivity.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\Sleep.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\String.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\SuspendAwareClock.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\Time.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\Utf.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\Vector2.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System\Vector3.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\System.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\Clipboard.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\Context.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\ContextSettings.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\Cursor.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\Event.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\Export.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\GlResource.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\Joystick.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\Keyboard.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\Mouse.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\Sensor.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\Touch.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\VideoMode.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\Vulkan.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\Window.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\WindowBase.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\WindowEnums.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window\WindowHandle.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML\include\SFML\Window.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SFML\doc\html\Angle_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Angle_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\annotated.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\AudioResource_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\AudioResource_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Audio_2Export_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Audio_2Export_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Audio_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Audio_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\BlendMode_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\BlendMode_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\CircleShape_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\CircleShape_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classes.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Angle-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Angle.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1AudioResource-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1AudioResource.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1CircleShape-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1CircleShape.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Clock-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Clock.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Color-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Color.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Context-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Context.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1ConvexShape-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1ConvexShape.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Cursor-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Cursor.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Drawable-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Drawable.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Event-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Event.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Exception.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1FileInputStream-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1FileInputStream.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Font-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Font.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Ftp-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Ftp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Ftp_1_1DirectoryResponse-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Ftp_1_1DirectoryResponse.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Ftp_1_1ListingResponse-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Ftp_1_1ListingResponse.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Ftp_1_1Response-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Ftp_1_1Response.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1GlResource-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1GlResource.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1GlResource_1_1TransientContextLock-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1GlResource_1_1TransientContextLock.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Http-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Http.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Http_1_1Request-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Http_1_1Request.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Http_1_1Response-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Http_1_1Response.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Image-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Image.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1InputSoundFile-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1InputSoundFile.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1InputStream-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1InputStream.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1IpAddress-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1IpAddress.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1MemoryInputStream-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1MemoryInputStream.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Music-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Music.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1OutputSoundFile-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1OutputSoundFile.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Packet-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Packet.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Rect-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Rect.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1RectangleShape-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1RectangleShape.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1RenderTarget-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1RenderTarget.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1RenderTexture-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1RenderTexture.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1RenderWindow-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1RenderWindow.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Shader-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Shader.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Shape-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Shape.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Socket-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Socket.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SocketSelector-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SocketSelector.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Sound-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Sound.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundBuffer-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundBuffer.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundBufferRecorder-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundBufferRecorder.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundFileFactory-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundFileFactory.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundFileReader-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundFileReader.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundFileWriter-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundFileWriter.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundRecorder-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundRecorder.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundSource-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundSource.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundStream-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1SoundStream.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Sprite-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Sprite.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1String-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1String.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1TcpListener-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1TcpListener.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1TcpSocket-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1TcpSocket.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Text-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Text.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Texture-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Texture.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Time-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Time.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Transform-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Transform.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Transformable-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Transformable.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1UdpSocket-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1UdpSocket.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Utf.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Utf_3_0116_01_4-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Utf_3_0116_01_4.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Utf_3_0132_01_4-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Utf_3_0132_01_4.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Utf_3_018_01_4-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Utf_3_018_01_4.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Vector2-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Vector2.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Vector3-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Vector3.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1VertexArray-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1VertexArray.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1VertexBuffer-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1VertexBuffer.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1VideoMode-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1VideoMode.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1View-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1View.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Window-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1Window.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1WindowBase-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\classsf_1_1WindowBase.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Clipboard_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Clipboard_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Clock_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Clock_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Color_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Color_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Config_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Config_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\ContextSettings_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\ContextSettings_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Context_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Context_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\ConvexShape_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\ConvexShape_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\CoordinateType_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\CoordinateType_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Cursor_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Cursor_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\dir_5cf786e58cbf7297a26339ae6e44357c.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\dir_83d50c0b1f1eceb6f182949162e90861.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\dir_89e9fb32471ae291b179a889144513db.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\dir_c0a853e81d6f1c1f0a3eb7a27dc24256.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\dir_d44c64559bbebec7f509842c48db8b23.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\dir_dd49ddb3ba8035e4a328f8c5f31cda7e.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\dir_e68e8157741866f444e17edd764ebbae.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\dir_e71ec51a9abd604c65f6abb639f6ea75.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\doxygen_crawl.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Drawable_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Drawable_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Err_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Err_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Event_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Event_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Exception_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Exception_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\FileInputStream_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\FileInputStream_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\files.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Font_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Font_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Ftp_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Ftp_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_b.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_c.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_d.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_e.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_enum.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_eval.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_f.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_b.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_c.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_d.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_e.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_f.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_g.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_h.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_i.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_k.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_l.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_m.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_n.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_o.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_p.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_r.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_s.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_t.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_u.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_v.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_w.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_z.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_func_~.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_g.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_h.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_i.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_j.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_k.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_l.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_m.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_n.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_o.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_p.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_r.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_rela.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_s.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_t.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_type.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_u.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_v.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_vars.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_w.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_x.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_y.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_z.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\functions_~.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\globals.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\globals_defs.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\globals_type.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\GlResource_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\GlResource_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Glsl_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Glsl_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Glyph_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Glyph_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\GpuPreference_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\GpuPreference_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Graphics_2Export_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Graphics_2Export_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Graphics_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Graphics_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\group__audio.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\group__graphics.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\group__network.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\group__system.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\group__window.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\hierarchy.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Http_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Http_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Image_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Image_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\index.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\InputSoundFile_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\InputSoundFile_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\InputStream_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\InputStream_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\IpAddress_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\IpAddress_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Joystick_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Joystick_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Keyboard_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Keyboard_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Listener_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Listener_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\mainpage_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\mainpage_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Main_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Main_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\MemoryInputStream_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\MemoryInputStream_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Mouse_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Mouse_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Music_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Music_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacemembers.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacemembers_enum.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacemembers_eval.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacemembers_func.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacemembers_type.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacemembers_vars.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespaces.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacesf.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacesf_1_1Clipboard.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacesf_1_1Glsl.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacesf_1_1Joystick.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacesf_1_1Keyboard.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacesf_1_1Listener.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacesf_1_1Literals.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacesf_1_1Mouse.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacesf_1_1PlaybackDevice.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacesf_1_1Sensor.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacesf_1_1Style.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacesf_1_1Touch.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\namespacesf_1_1Vulkan.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\NativeActivity_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\NativeActivity_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Network_2Export_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Network_2Export_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Network_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Network_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\OpenGL_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\OpenGL_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\OutputSoundFile_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\OutputSoundFile_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Packet_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Packet_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\PlaybackDevice_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\PlaybackDevice_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\PrimitiveType_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\PrimitiveType_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\RectangleShape_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\RectangleShape_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Rect_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Rect_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\RenderStates_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\RenderStates_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\RenderTarget_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\RenderTarget_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\RenderTexture_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\RenderTexture_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\RenderWindow_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\RenderWindow_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Sensor_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Sensor_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Shader_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Shader_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Shape_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Shape_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Sleep_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Sleep_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SocketHandle_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SocketHandle_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SocketSelector_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SocketSelector_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Socket_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Socket_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundBufferRecorder_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundBufferRecorder_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundBuffer_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundBuffer_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundChannel_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundChannel_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundFileFactory_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundFileFactory_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundFileReader_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundFileReader_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundFileWriter_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundFileWriter_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundRecorder_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundRecorder_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundSource_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundSource_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundStream_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SoundStream_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Sound_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Sound_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Sprite_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Sprite_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\StencilMode_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\StencilMode_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\String_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\String_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1BlendMode-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1BlendMode.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1ContextSettings-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1ContextSettings.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1Closed.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1FocusGained.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1FocusLost.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1JoystickButtonPressed-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1JoystickButtonPressed.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1JoystickButtonReleased-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1JoystickButtonReleased.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1JoystickConnected-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1JoystickConnected.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1JoystickDisconnected-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1JoystickDisconnected.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1JoystickMoved-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1JoystickMoved.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1KeyPressed-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1KeyPressed.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1KeyReleased-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1KeyReleased.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1MouseButtonPressed-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1MouseButtonPressed.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1MouseButtonReleased-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1MouseButtonReleased.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1MouseEntered.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1MouseLeft.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1MouseMoved-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1MouseMoved.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1MouseMovedRaw-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1MouseMovedRaw.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1MouseWheelScrolled-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1MouseWheelScrolled.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1Resized-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1Resized.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1SensorChanged-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1SensorChanged.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1TextEntered-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1TextEntered.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1TouchBegan-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1TouchBegan.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1TouchEnded-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1TouchEnded.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1TouchMoved-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Event_1_1TouchMoved.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Font_1_1Info-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Font_1_1Info.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Glyph-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Glyph.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Joystick_1_1Identification-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Joystick_1_1Identification.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Listener_1_1Cone-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Listener_1_1Cone.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Music_1_1Span-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Music_1_1Span.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1RenderStates-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1RenderStates.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Shader_1_1CurrentTextureType.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1SoundFileReader_1_1Info-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1SoundFileReader_1_1Info.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1SoundSource_1_1Cone-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1SoundSource_1_1Cone.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1SoundStream_1_1Chunk-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1SoundStream_1_1Chunk.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1StencilMode-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1StencilMode.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1StencilValue-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1StencilValue.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1SuspendAwareClock-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1SuspendAwareClock.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1U8StringCharTraits-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1U8StringCharTraits.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Vertex-members.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\structsf_1_1Vertex.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SuspendAwareClock_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\SuspendAwareClock_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\System_2Export_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\System_2Export_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\System_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\System_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\TcpListener_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\TcpListener_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\TcpSocket_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\TcpSocket_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Texture_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Texture_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Text_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Text_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Time_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Time_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\topics.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Touch_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Touch_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Transformable_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Transformable_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Transform_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Transform_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\UdpSocket_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\UdpSocket_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Utf_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Utf_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Vector2_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Vector2_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Vector3_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Vector3_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\VertexArray_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\VertexArray_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\VertexBuffer_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\VertexBuffer_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Vertex_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Vertex_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\VideoMode_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\VideoMode_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\View_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\View_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Vulkan_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Vulkan_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\WindowBase_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\WindowBase_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\WindowEnums_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\WindowEnums_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\WindowHandle_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\WindowHandle_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Window_2Export_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Window_2Export_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Window_2Window_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Window_2Window_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Window_8hpp.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\doc\html\Window_8hpp_source.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\include\SFML\Audio\SoundFileFactory.inl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\include\SFML\Graphics\Color.inl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\include\SFML\Graphics\Glsl.inl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\include\SFML\Graphics\Rect.inl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\include\SFML\Graphics\Transform.inl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\include\SFML\System\Angle.inl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\include\SFML\System\String.inl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\include\SFML\System\Time.inl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\include\SFML\System\Utf.inl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\include\SFML\System\Vector2.inl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\include\SFML\System\Vector3.inl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\include\SFML\Window\Event.inl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\include\SFML\Window\WindowBase.inl">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
