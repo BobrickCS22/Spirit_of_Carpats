@@ -266,6 +266,16 @@
     <ClInclude Include="SFML\include\SFML\Window\WindowHandle.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="SFML\bin\sfml-audio-3.dll" />
+    <None Include="SFML\bin\sfml-audio-d-3.dll" />
+    <None Include="SFML\bin\sfml-graphics-3.dll" />
+    <None Include="SFML\bin\sfml-graphics-d-3.dll" />
+    <None Include="SFML\bin\sfml-network-3.dll" />
+    <None Include="SFML\bin\sfml-network-d-3.dll" />
+    <None Include="SFML\bin\sfml-system-3.dll" />
+    <None Include="SFML\bin\sfml-system-d-3.dll" />
+    <None Include="SFML\bin\sfml-window-3.dll" />
+    <None Include="SFML\bin\sfml-window-d-3.dll" />
     <None Include="SFML\doc\html\Angle_8hpp.html" />
     <None Include="SFML\doc\html\Angle_8hpp_source.html" />
     <None Include="SFML\doc\html\annotated.html" />

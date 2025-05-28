@@ -1987,5 +1987,35 @@
     <None Include="SFML\include\SFML\Window\WindowBase.inl">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="SFML\bin\sfml-audio-3.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\bin\sfml-audio-d-3.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\bin\sfml-graphics-3.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\bin\sfml-graphics-d-3.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\bin\sfml-network-3.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\bin\sfml-network-d-3.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\bin\sfml-system-3.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\bin\sfml-system-d-3.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\bin\sfml-window-3.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SFML\bin\sfml-window-d-3.dll">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
