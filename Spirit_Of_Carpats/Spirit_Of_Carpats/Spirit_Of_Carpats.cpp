@@ -7,11 +7,6 @@
 using namespace std;
 int main()
 {
-<<<<<<< HEAD
 
-=======
-    
-    //עוסוף‏ ד³ע
->>>>>>> 6b258dc6bb79053a4db72cd76b6e9b4c98f8aa01
 }
 

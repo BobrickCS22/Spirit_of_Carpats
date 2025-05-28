@@ -3,9 +3,4 @@
 #include <SFML/System.hpp>
 #include <iostream>
 #include <algorithm>
-<<<<<<< HEAD
 #include <box2d/box2d.h>
-=======
-
-//hello //крч фінальний тест
->>>>>>> 6b258dc6bb79053a4db72cd76b6e9b4c98f8aa01
